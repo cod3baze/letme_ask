@@ -1,4 +1,4 @@
-import Document, { Main, Html, NextScript, Head } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
@@ -21,4 +21,4 @@ class MyDocument extends Document {
   }
 }
 
-export { MyDocument };
+export default MyDocument;
