@@ -1,13 +1,17 @@
-import { Button } from "../components/Button";
 import styles from "../styles/Home.module.css";
+
+import IllustrationImg from "../assets";
 
 import "../services/firebase";
 
-export default function Home() {
+function Home() {
   return (
     <div className={styles.container}>
-      <h1>elias alexandre</h1>
-      <Button />
+      <aside>
+        <img src={IllustrationImg} alt="ilustração" />
+      </aside>
     </div>
   );
 }
+
+export default Home;
